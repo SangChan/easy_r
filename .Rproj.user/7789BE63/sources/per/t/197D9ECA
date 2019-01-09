@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1547014586323.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3766066226",
+    "id" : "197D9ECA",
+    "lastKnownWriteTime" : 1547014610,
+    "last_content_update" : 1547014610334,
+    "path" : "~/workspace/easy_r/script2.R",
+    "project_path" : "script2.R",
+    "properties" : {
+        "cursorPosition" : "1,3",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
