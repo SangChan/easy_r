@@ -23,3 +23,10 @@ welfare <- rename(welfare,
                   code_region = h10_reg7)
 
 #9.2
+class(welfare$sex)
+table(welfare$sex)
+welfare$sex <- ifelse(welfare$sex == 9 , NA, welfare$sex)
+table(is.na(welfare$sex))
+welfare$sex <- ifelse(welfare$sex == 1, "male", "female")
+table(welfare$sex)
+qplot(welfare$sex)
