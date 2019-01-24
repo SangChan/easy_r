@@ -118,3 +118,8 @@ bottom10 <- job_income %>%
 bottom10
 ggplot(data = bottom10, aes(x=reorder(job,-mean_income),y=mean_income)) + geom_col() + coord_flip() + ylim(0,150)
 #9.7
+job_male <- welfare %>%
+  filter(!is.na(job)) %>%
+  group_by(job) %>%
+  summarise(n = n()) %>%
+  arrange(desc(n))
