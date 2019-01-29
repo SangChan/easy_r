@@ -7,3 +7,8 @@ Sys.setenv(JAVA_HOME ="/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Conten
 dyn.load("/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/server/libjvm.dylib")
 library(rJava)
 library(KoNLP)
+useNIADic()
+txt <- readLines(file("hiphop.txt", encoding = "EUC-KR"))
+head(txt)
+install.packages("stringr")
+library(stringr)
