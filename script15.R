@@ -26,3 +26,7 @@ exam %>%
   group_by(class) %>%
   summarise(mean = mean(tot))
 # 15-2
+var1 <- c(1,2,3,1,2)
+var2 <- factor(c(1,2,3,1,2))
+var1
+var2
